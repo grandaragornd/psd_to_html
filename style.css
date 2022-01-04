@@ -1,6 +1,4 @@
-* {
-    margin: 0;
-}
+
 
 nav {
     color: red;
@@ -9,9 +7,24 @@ nav {
 #hero-section {
     color: blue;
 }
-
+/* Style section for our Story section */
 #our_story-section {
     color: green;
+    
+}
+.our_story{
+    min-height: 450px;
+    max-width: 50%;
+    
+}
+.logo_big {
+    float: left;
+    height: 240px;
+    width: 240px;
+    margin-right: 120px;
+}
+.story_para {
+    display: table-cell;
 }
 
 #watch-section {
