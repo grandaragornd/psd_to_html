@@ -2,10 +2,6 @@
     margin: 0;
 }
 
-header {
-  background-image: url('./media/bgk-header.png');
-}
-
 nav {
     color: red;
 }
