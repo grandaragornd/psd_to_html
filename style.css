@@ -20,6 +20,7 @@ nav {
 }
 .nav-button{
     margin: 10px;
+    text-transform: uppercase;
 }
 .navbar-icon{
     flex-grow: 1;
@@ -31,6 +32,7 @@ nav {
 }
 .icon-text{
     margin: 10px;
+    color: turquoise;
 }
 
 
