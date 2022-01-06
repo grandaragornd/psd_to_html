@@ -7,8 +7,32 @@ header {
 }
 
 nav {
-    color: red;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 100px;
 }
+
+/*Flexing buttons*/
+.selected-nav-button{
+    color: turquoise;
+}
+.nav-button{
+    margin: 10px;
+}
+.navbar-icon{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.icon-image{
+    margin: 10px;
+}
+.icon-text{
+    margin: 10px;
+}
+
 
 #hero-section {
     color: blue;
