@@ -1,4 +1,6 @@
-
+*{
+    margin:0;
+}
 
 nav {
     color: red;
@@ -42,6 +44,7 @@ nav {
     max-width: 120px;
     min-height: 35px;
     color: aqua;
+    margin-top: 30px;
 
 }
 
