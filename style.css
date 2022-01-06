@@ -2,12 +2,61 @@
     margin: 0;
 }
 
-nav {
-    color: red;
+h1{
+    font-family: serif;
 }
 
+nav {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+/*Styling nav*/
+.selected-nav-button{
+    color: turquoise;
+}
+.nav-button{
+    margin: 10px;
+    text-transform: uppercase;
+}
+.navbar-icon{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.icon-image{
+    margin: 10px;
+}
+.icon-text{
+    margin: 10px;
+    color: turquoise;
+}
+/*Styling herosection*/
+
 #hero-section {
-    color: blue;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#hero-line{
+    color: turquoise;
+}
+#hero-description{
+    margin: 10px;
+}
+#learn-more-button{
+    color: turquoise;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: turquoise;
+    border-width: 1px;
+    padding: 15px;
+    margin: 40px;
 }
 /* Style section for our Story section */
 #our_story-section {   
