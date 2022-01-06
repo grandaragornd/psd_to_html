@@ -19,10 +19,15 @@ nav {
 }
 
 #expertise-section {
-    color: fuchsia;
+    min-height: 400px;
 }
 
-#team-section {
+.expert-container {
+    display:grid;
+    grid-template-rows:50% 50%;
+    grid-template-columns:33% 33% 33%;
+
+}
     color: yellowgreen;
 }
 
