@@ -58,23 +58,12 @@ nav {
     max-height: 300;
 }
 
-#hero-line {
+.hero-line {
     color: turquoise;
 }
 
 #hero-description {
     margin: 10px;
-}
-
-#learn-more-button {
-    color: turquoise;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    background-color: transparent;
-    border-color: turquoise;
-    border-width: 1px;
-    padding: 15px;
-    margin: 40px;
 }
 
 
