@@ -1,5 +1,5 @@
-* {
-    margin: 0;
+*{
+    margin:0;
 }
 
 nav {
@@ -15,7 +15,25 @@ nav {
 }
 
 #watch-section {
-    color: darkred;
+
+    background-image: url("./media/bgk-middle.png");
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+.play-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.play-container p{
+    color: white;
+}
+.play{
+    margin-bottom: 30px;
 }
 
 #expertise-section {
