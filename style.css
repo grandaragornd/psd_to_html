@@ -6,6 +6,10 @@ header {
   background-image: url('./media/bgk-header.png');
 }
 
+h1{
+    font-family: serif;
+}
+
 nav {
     color: white;
     display: flex;
@@ -14,7 +18,7 @@ nav {
     margin-bottom: 100px;
 }
 
-/*Flexing buttons*/
+/*Styling nav*/
 .selected-nav-button{
     color: turquoise;
 }
@@ -34,10 +38,29 @@ nav {
     margin: 10px;
     color: turquoise;
 }
-
+/*Styling herosection*/
 
 #hero-section {
-    color: blue;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#hero-line{
+    color: turquoise;
+}
+#hero-description{
+    margin: 10px;
+}
+#learn-more-button{
+    color: turquoise;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: turquoise;
+    border-width: 1px;
+    padding: 15px;
+    margin: 40px;
 }
 
 #our_story-section {
