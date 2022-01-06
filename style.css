@@ -28,6 +28,8 @@ nav {
 .nav-button {
     margin: 10px;
     text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 .navbar-icon {
@@ -43,6 +45,7 @@ nav {
 .icon-text {
     margin: 10px;
     color: turquoise;
+    font-family: sans-serif;
 }
 
 
