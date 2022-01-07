@@ -262,3 +262,9 @@ footer {
 .footer3 h4{
     margin-bottom: 10px;
 }
+
+.picture {
+    background-color: white;
+    height: 80%;
+    width: 100%;
+}
