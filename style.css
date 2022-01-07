@@ -31,7 +31,7 @@ nav {
 .expert-container {
     display:grid;
     grid-template-rows:50% 50%;
-    grid-template-columns:30% 30% 30%;
+    grid-template-columns:33% 30% 30%;
     max-width: 60%;
     text-align: center;
     gap: 50px;
