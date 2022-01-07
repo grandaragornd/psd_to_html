@@ -10,9 +10,10 @@ h1 {
     font-family: serif;
 }
 
-h2{
+h2 {
     margin: 10px;
 }
+
 nav {
     color: white;
     display: flex;
@@ -59,10 +60,12 @@ nav {
     text-align: center;
     font-family: sans-serif;
     max-height: 300;
+    padding-bottom: 100px;
 }
 
 .hero-line {
     color: turquoise;
+    margin-bottom: 20px;
 }
 
 #hero-description {
@@ -71,6 +74,7 @@ nav {
 
 
 /* Style section for our Story section */
+
 .our_story {
     display: flex;
     flex-direction: row;
@@ -133,29 +137,27 @@ nav {
     align-items: center;
     justify-content: center;
     min-height: 700px;
-
 }
 
 .expert-container {
-    display:grid;
-    grid-template-rows:50% 50%;
-    grid-template-columns:33% 30% 30%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 33% 30% 30%;
     max-width: 60%;
     text-align: center;
     gap: 50px;
     margin-top: 60px;
-
 }
+
 .grid-cell img {
-   height: 50px;
-   margin-bottom:30px;
-    
+    height: 50px;
+    margin-bottom: 30px;
 }
 
 .grid-cell h3 {
-    margin-bottom:10px;
-     
- }
+    margin-bottom: 10px;
+}
+
 
 /*Styling team section*/
 
@@ -167,27 +169,29 @@ nav {
     align-items: center;
     padding: 50px;
 }
-.member-name{
+
+.member-name {
     font-family: sans-serif;
     font-weight: bold;
 }
-.member-role{
+
+.member-role {
     font-family: sans-serif;
 }
-.team-member{
+
+.team-member {
     height: 200px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
 }
-#team-container{
+
+#team-container {
     display: flex;
     width: 700px;
     background-color: gray;
     justify-content: space-between;
     align-items: flex-end;
-
 }
 
 #contact_client-section {
