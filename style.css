@@ -10,6 +10,9 @@ h1 {
     font-family: serif;
 }
 
+h2{
+    margin: 10px;
+}
 nav {
     color: white;
     display: flex;
@@ -68,9 +71,6 @@ nav {
 
 
 /* Style section for our Story section */
-
-#our_story-section {}
-
 .our_story {
     display: flex;
     flex-direction: row;
@@ -129,10 +129,40 @@ nav {
 #expertise-section {
     color: fuchsia;
 }
+/*Styling team section*/
 
 #team-section {
-    color: yellowgreen;
+    background-image: url('./media/bgk-header.png');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
 }
+.member-name{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.member-role{
+    font-family: sans-serif;
+}
+.team-member{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+#team-container{
+    display: flex;
+    width: 700px;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+
 
 #contact_client-section {
     color: lightsalmon;
