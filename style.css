@@ -166,9 +166,24 @@ nav {
  }
 
 #contact_client-section {
-    color: lightsalmon;
+    display:flex;
+    justify-content: space-evenly;
+    min-height:500px;
 }
-
+.client-grid{
+    display:grid;
+    grid-template-columns:50% 50% ;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    gap: 20px;
+}
+.client-grid img{
+    max-height: 50px;
+    max-width:100px;
+}
+.header-client{
+    margin-top: 50px;
+    margin-bottom:30px;
+}
 footer {
     color: blueviolet;
 }
