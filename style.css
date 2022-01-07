@@ -10,6 +10,9 @@ h1 {
     font-family: serif;
 }
 
+h2{
+    margin: 10px;
+}
 nav {
     color: white;
     display: flex;
@@ -28,6 +31,8 @@ nav {
 .nav-button {
     margin: 10px;
     text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 .navbar-icon {
@@ -43,6 +48,7 @@ nav {
 .icon-text {
     margin: 10px;
     color: turquoise;
+    font-family: sans-serif;
 }
 
 
@@ -55,7 +61,7 @@ nav {
     max-height: 300;
 }
 
-#hero-line {
+.hero-line {
     color: turquoise;
 }
 
@@ -63,22 +69,8 @@ nav {
     margin: 10px;
 }
 
-#learn-more-button {
-    color: turquoise;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    background-color: transparent;
-    border-color: turquoise;
-    border-width: 1px;
-    padding: 15px;
-    margin: 40px;
-}
-
 
 /* Style section for our Story section */
-
-#our_story-section {}
-
 .our_story {
     display: flex;
     flex-direction: row;
@@ -164,6 +156,39 @@ nav {
     margin-bottom:10px;
      
  }
+
+/*Styling team section*/
+
+#team-section {
+    background-image: url('./media/bgk-header.png');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.member-name{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.member-role{
+    font-family: sans-serif;
+}
+.team-member{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+#team-container{
+    display: flex;
+    width: 700px;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
 
 #contact_client-section {
     color: lightsalmon;
