@@ -214,5 +214,51 @@ nav {
     margin-bottom:30px;
 }
 footer {
-    color: blueviolet;
+    background-image: url("/media/bgk-footer.png");
+    min-height: 397px;
+    color:white;
+}
+.footer-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+.socials{
+    display:flex;
+    margin-top:10px;
+    gap:10px;
+}
+.bottomline{
+    display:flex;
+    justify-content: space-around;
+    margin-top:30px;
+}
+
+.footer5{
+    display:flex;
+    max-width: 300px;
+}
+.footer4{
+    display: flex;
+    max-width: 300px;
+}
+.footer4 img{
+    align-self: flex-start;
+    margin-right: 5px;
+}
+.footer5 img{
+    align-self: flex-start;
+    margin-right: 5px;
+}
+.footer1{
+   display:flex;
+   flex-direction: column;
+    max-width: 300px;
+}
+.footer2 h4{
+    margin-bottom: 10px;
+}
+.footer3 h4{
+    margin-bottom: 10px;
 }
