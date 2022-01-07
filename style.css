@@ -214,7 +214,7 @@ nav {
     margin-bottom:30px;
 }
 footer {
-    background-image: url("/media/bgk-footer.png");
+    background-image: url("./media/bgk-footer.png");
     min-height: 397px;
     color:white;
 }
